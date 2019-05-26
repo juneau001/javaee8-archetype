@@ -77,7 +77,7 @@
                             <artifactItems>
                                 <artifactItem>
                                     <groupId>javax</groupId>
-                                    <artifactId>javaee-endorsed-api</artifactId>
+                                    <artifactId>javaee-api</artifactId>
                                     <version>8.0</version>
                                     <type>jar</type>
                                 </artifactItem>
