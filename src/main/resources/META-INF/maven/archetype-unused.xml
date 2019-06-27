@@ -3,7 +3,7 @@
     <id>javaee8-archetype</id>
     <sources>
         <source>src/main/java/JAXRSConfiguration.java</source>
-        <source>src/main/java/resource/JavaEE8Resource.java</source>
+        <source>src/main/java/resources/JavaEE8Resource.java</source>
     </sources>
     <resources>
         <resource>src/main/webapp/WEB-INF/beans.xml</resource>

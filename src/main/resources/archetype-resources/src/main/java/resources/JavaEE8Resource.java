@@ -1,4 +1,4 @@
-package ${groupId}.resource;
+package resources;
 
 import javax.inject.Inject;
 import javax.ws.rs.GET;
