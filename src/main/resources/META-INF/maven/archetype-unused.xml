@@ -2,13 +2,13 @@
            xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0 http://maven.apache.org/xsd/archetype-1.0.0.xsd">
     <id>javaee8-archetype</id>
     <sources>
-        <source>src/main/java/JAXRSConfiguration.java</source>
-        <source>src/main/java/resources/JavaEE8Resource.java</source>
+        <source>src/main/java/${groupId}/${artifactId}/JAXRSConfiguration.java</source>
+        <source>src/main/java/${groupId}/${artifactId}/resources/JavaEE8Resource.java</source>
     </sources>
     <resources>
         <resource>src/main/webapp/WEB-INF/beans.xml</resource>
         <resource>src/main/webapp/WEB-INF/web.xml</resource>
-        <resource>src/main/resources/log4j2.xml</resource>
+        <resource>src/main/webapp/index.html</resource>
     </resources>
  
 </archetype>
